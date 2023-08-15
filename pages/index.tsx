@@ -48,7 +48,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="flex max-h-full max-w-full">
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[200px] bg-gradient-to-b from-black/0 via-black to-black"></span>
-              <Image src="/faire-part.png" width="629" height="629" />
+              <Image src="/faire-part.png" width="629" height="629" alt='Image'/>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link

@@ -16,7 +16,6 @@ class MyDocument extends Document {
             content="Photo Mariage Michel & Thi Minh Chau."
           />
           <meta property="og:title" content="Photo Mariage Michel & Thi Minh Chau" />
-          />
         </Head>
         <body className="bg-black antialiased">
           <Main />
